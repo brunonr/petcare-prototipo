@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agendamento - PetCare Agenda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="pets.html">Pets</a>
+      <a href="agendar.html">Agendamento</a>
+      <a href="painel.html">Painel</a>
+    </nav>
+    <h2>Agendamento de Serviço</h2>
+    <form>
+      <label for="pet">Selecionar Pet:</label>
+      <select id="pet" name="pet">
+        <option>Thor (Cachorro)</option>
+        <option>Luna (Gato)</option>
+      </select>
+      <label for="service">Serviço:</label>
+      <select id="service" name="service">
+        <option>Banho</option>
+        <option>Tosa</option>
+        <option>Consulta Veterinária</option>
+      </select>
+      <label for="date">Data:</label>
+      <input type="date" id="date" name="date">
+      <label for="time">Horário:</label>
+      <input type="time" id="time" name="time">
+      <button type="submit">Confirmar Agendamento</button>
+    </form>
+  </div>
+</body>
+</html>
